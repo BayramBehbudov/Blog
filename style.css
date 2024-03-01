@@ -1,0 +1,456 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+* button {
+    cursor: pointer;
+}
+
+/*head*/
+.head1 {
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.head1 div{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    width: auto;
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+
+.head2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2 h3 {
+    margin-top: 15px;
+}
+
+.head2 span {
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+/*main*/
+.contenttop {
+    width: auto;
+    position: relative;
+
+}
+
+.contenttopimg {
+    width: 100%;
+    height: auto;
+
+}
+
+.contenttoptext {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 20px 25px;
+    color: white;
+
+}
+
+.contenttopname {
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 15px;
+
+}
+
+.contenttoptitle {
+    font-weight: 400;
+    font-size: 65px;
+    margin-top: 15px;
+
+}
+
+.contenttopbutton {
+    opacity: 0.6;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    margin-top: 15px;
+
+}
+
+.contenttopbutton:hover {
+    opacity: 0.8;
+}
+
+.contentcenter {
+    background-color: rgb(249, 242, 233);
+    width: auto;
+    height: auto;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentleft {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftitem {
+    background-color: white;
+    padding: 15px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.leftitemheader {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.lefttitle {
+    font-size: 25px;
+
+}
+
+.titledescription {
+    font-size: 20px;
+}
+
+.titledescription span {
+    color: black;
+    opacity: 0.7;
+    font-weight: normal;
+}
+
+.leftitem img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutdescription {
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.aboutdescription span {
+    font-weight: bold;
+}
+
+.leftbuttons {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftlike {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc
+}
+
+.leftlike:hover {
+    background-color: rgb(192, 189, 189);
+}
+
+.leftreplies {
+    background-color: black;
+    padding: 0px 15px;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.leftreplies span {
+    background-color: white;
+    color: black;
+    padding: 3px 6px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.leftreplies:hover {
+    background-color: rgb(192, 189, 189);
+    color: black;
+}
+
+.contentright {
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightcontent1 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightcontent1img {
+    width: 100%;
+}
+
+.rightcontent1text {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.rightcontent1text>p:first-child {
+    font-size: 20px;
+
+}
+
+.rightcontent1text>p:last-child {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.rightcontent2 {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.rightcontent2title {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: auto;
+    height: fit-content;
+    font-size: 20px;
+}
+
+.rightcontent2ul {
+    background-color: white;
+}
+
+.rightcontent2li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(190, 188, 188);
+}
+
+.rightcontent2li:hover {
+    background-color: rgb(200, 198, 198);
+}
+
+.rightcontent2div {
+    margin-left: 15px;
+    font-size: 19px;
+}
+
+.rightcontent3 {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: white;
+
+}
+
+.content3title {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: auto;
+    height: fit-content;
+    font-size: 20px;
+}
+
+.advertisespace {
+    background-color: rgb(227, 224, 224);
+    margin: 15px;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenttags {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+}
+
+.tagstitle {
+    background-color: black;
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.tagsitemul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 6px;
+}
+
+.tagsitemul li {
+    background-color: rgb(211, 209, 209);
+    align-items: center;
+    padding: 5px;
+}
+
+.tagsitemul>li:first-child {
+    background-color: black;
+    color: white;
+}
+
+.inspiration {
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.inspirationtitle {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.inspirationitem {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+.inspirationitemimg {
+    width: 48%;
+    height: 40%;
+}
+
+.follow {
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.followtitle {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+
+.followitem {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 15px;
+}
+
+.followitem i:hover{
+    color:  gray;
+    opacity: 0.5;
+}
+
+.subscribe {
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.subtitle {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+
+.subform {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.subform input {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.subbutton {
+    background-color: red;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    border: none;
+
+}
+
+footer {
+    background-color: rgb(138, 136, 136);
+    width: auto;
+    height: 150px;
+    padding: 20px;
+}
+
+
+footer>div>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+footer a:hover {
+    background-color: rgb(189, 188, 188);
+    color: black;
+}
+
